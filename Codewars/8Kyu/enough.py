@@ -1,7 +1,8 @@
 def enough(cap, on, wait):
-    if wait >= (cap-on):
-        return wait - (cap-on) 
-    else:
+    if wait + on == cap:
         return 0
+    else:
+        return wait - (cap-on)
+        
     
 print(enough(20, 19, 5))
