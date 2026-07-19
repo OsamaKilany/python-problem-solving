@@ -2,10 +2,10 @@ HEX = set("0123456789ABCDEF")
 
 def find_corrupted_byte(dump):
     for index in dump:
-        if not index in HEX:
-            if index.isalnum() and index.isupper():
+        cur = set(index)
+        if not cur in HEX:
                 return dump.index(index)
-            return dump.index(index)
+           
     return -1
 
 
