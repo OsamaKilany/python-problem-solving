@@ -1,5 +1,7 @@
 def nerdify(txt):
-    return txt.replace('a', '4').replace('e', "3").replace('l', '1')
+    d = "aAeEl"
+    n = "431"
+    return txt.replace(d, n)
 
 
 
