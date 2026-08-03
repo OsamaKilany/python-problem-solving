@@ -1,5 +1,9 @@
 def nerdify(txt):
-       
+    # learned a new function :)
+    return txt.translate(txt.maketrans("AaEel", "44331"))
+
+
+"""       
     if 'l' in txt:
         txt= txt.replace('l', '1')
     
@@ -8,8 +12,10 @@ def nerdify(txt):
             txt = txt.replace(char, '4')
         elif char in 'Ee':
             txt = txt.replace(char, '3')
+        return txt
+"""
 
-    return txt
+    
 
 
 print(nerdify("Fund4ment41s"))
