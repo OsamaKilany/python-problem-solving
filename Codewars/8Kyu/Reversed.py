@@ -1,5 +1,7 @@
 def solution(string):
-    return ''.join(reversed(string))
+    
+    return string[::-1]
+    #return ''.join(reversed(string))
 
 
 
