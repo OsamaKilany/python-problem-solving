@@ -2,9 +2,6 @@ def abbrev_name(name):
     name = name.title().split()
     return f"{name[0][0]}.{name[1][0]}"
 
-
-
-
 """
     name = name.title().replace(" ", ".")
     for letter in name:
