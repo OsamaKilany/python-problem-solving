@@ -13,7 +13,7 @@ def main():
 
 
         
-        print(f"Date: {day} | Time: {hour} | Temp: {data["hourly"]["temperature_2m"][0]}°C")
+        print(f"Date: {day} | Time: {hour} | Temp: {data['hourly']['temperature_2m'][0]}°C")
         # print(data['longitude'])
         # print(json.dumps(data, indent=2))
         # print(json.dumps(data['hourly'], indent=2))
